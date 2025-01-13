@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can't Hold Us - Macklemore & Ryan Lewis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="images/5265761-200.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(45deg, #3b82f6, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800 text-white min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-bold gradient-text mb-3">Can't Hold Us</h1>
+            <h4 class="text-xl text-blue-300">by Macklemore & Ryan Lewis</h4>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Left Column -->
+            <div class="space-y-6">
+                <!-- Album Cover -->
+                <div class="group relative overflow-hidden rounded-xl shadow-2xl transition-transform duration-300 hover:scale-105">
+                    <a href="https://www.youtube.com/watch?v=2zNSgSzhBfM" target="_blank">
+                        <img src="images/Can't_Hold_Us.png" alt="Can't Hold Us Album Cover" 
+                             class="w-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="text-white text-lg font-semibold">Watch on YouTube</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Audio Player -->
+                <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-300">Listen to the Track</h3>
+                    <audio controls loop class="w-full">
+                        <source src="audio/Macklemore & Ryan Lewis - Can't Hold Us (feat. Ray Dalton).mp3" type="audio/mpeg">
+                        <source src="audio/Macklemore & Ryan Lewis - Can't Hold Us (feat. Ray Dalton).wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-6">
+                <!-- Video Player -->
+                <div class="rounded-xl overflow-hidden shadow-2xl">
+                    <video controls autoplay muted loop class="w-full">
+                        <source src="video/MACKLEMORE & RYAN LEWIS - CAN'T HOLD US FEAT. RAY DALTON (OFFICIAL MUSIC VIDEO).mp4">
+                    </video>
+                </div>
+
+                <!-- Lyrics Section -->
+                <div class="bg-gray-800 rounded-xl p-6 shadow-lg">
+                    <div class="flex justify-between mb-4">
+                        <button onclick="document.getElementById('lyrics').classList.remove('hidden')" 
+                                class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition duration-300">
+                            Show Lyrics
+                        </button>
+                        <button onclick="document.getElementById('lyrics').classList.add('hidden')" 
+                                class="px-4 py-2 bg-gray-600 hover:bg-gray-700 rounded-lg transition duration-300">
+                            Hide Lyrics
+                        </button>
+                    </div>
+                    <div id="lyrics" class="hidden">
+                        <div class="prose prose-invert max-h-96 overflow-y-auto text-gray-300 space-y-4">
+                            <p>
+                                Ay, ay, ay<br>
+                                Good to see you, come on in, let′s go<br>
+                                Yeah, let′s go<br>
+                                Alright, alright<br>
+                                OK, uh, alright, OK<br>
+                                Alright, OK<br><br>
+                                Return of the Mack, get up!<br>
+                                What it is, what it does, what it is, what it isn′t.<br>
+                                Looking for a better way to get up out of bed<br>
+                                Instead of getting on the Internet and checking a new hit me<br>
+                                Get up! Thrift shop pimp strut walking...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section class="mt-12 bg-gray-800 rounded-xl p-8 shadow-lg">
+            <h2 class="text-3xl font-bold mb-6 gradient-text">About the Song</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-blue-300">Why the Song Stands Out</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Upbeat rhythm and motivational lyrics</li>
+                        <li>Topped charts worldwide</li>
+                        <li>Iconic collaboration between artists</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-blue-300">Key Highlights</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300">
+                        <li>Part of "The Heist" album</li>
+                        <li>Message of perseverance and success</li>
+                        <li>Award-winning music video</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Definitions -->
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold mb-4 text-blue-300">Quick Facts</h3>
+                <dl class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-gray-700 p-4 rounded-lg">
+                        <dt class="font-semibold text-blue-300">Album</dt>
+                        <dd class="text-gray-300">The Heist (2012)</dd>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg">
+                        <dt class="font-semibold text-blue-300">Collaboration</dt>
+                        <dd class="text-gray-300">Macklemore, Ryan Lewis, Ray Dalton</dd>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg">
+                        <dt class="font-semibold text-blue-300">Genre</dt>
+                        <dd class="text-gray-300">Hip-hop, Pop, Soul fusion</dd>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded-lg">
+                        <dt class="font-semibold text-blue-300">Music Video</dt>
+                        <dd class="text-gray-300">Features worldwide locations and stunning cinematography</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
